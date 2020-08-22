@@ -9,6 +9,19 @@
 </p>
 <hr noshade>
 
+## Prerequisites
+
+* Make sure you have Rust installed. 
+
+```shell
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+* Rocket uses the nightly version of Rust so make sure you use that.
+
+```sh
+# from the root of the project
+rustup override set nightly
+```
 ## Queries and Commands
 
 <p align="center">

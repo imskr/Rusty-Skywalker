@@ -8,3 +8,9 @@
     <a href="https://travis-ci.com/github/imskr/Rusty-Skywalker"><img alt="Travis (.com) branch" src="https://img.shields.io/travis/com/imskr/Rusty-Skywalker/master?style=flat-square"></a>
 </p>
 <hr noshade>
+
+## Queries and Commands
+
+<p align="center">
+    <img src="static/images/cmd.png">
+</p>

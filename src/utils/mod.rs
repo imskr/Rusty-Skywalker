@@ -1,4 +1,5 @@
 pub mod google;
+pub mod twitter;
 
 pub fn get_cmd_from_query(query_str: &str) -> &str {
     if query_str.contains(' '){

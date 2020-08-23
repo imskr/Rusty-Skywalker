@@ -14,14 +14,38 @@
 * Make sure you have Rust installed. 
 
 ```shell
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+$ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 * Rocket uses the nightly version of Rust so make sure you use that.
 
 ```sh
 # from the root of the project
-rustup override set nightly
+$ rustup override set nightly
 ```
+
+## Installation
+
+### Local
+* Clone the repository.
+```sh
+$ git clone https://github.com/imskr/Rusty-Skywalker.git
+```
+
+* Build the project.
+```sh
+$ cargo build
+```
+
+* Run the project.
+```sh
+$ cargo run
+```
+
+* Visit localhost.
+```
+http://localhost:8000
+```
+
 ## Queries and Commands
 
 <p align="center">

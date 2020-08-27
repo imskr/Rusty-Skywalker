@@ -1,4 +1,4 @@
-# Rusty Skywalker 
+![rusty-skywalker](./static/images/brand.png)
 
 > A Powerful Bookmark Search Tool Powering Firefox & Chrome!
 

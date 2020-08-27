@@ -1,14 +1,12 @@
 #![feature(proc_macro_hygiene, decl_macro)]
 
 #[macro_use] extern crate rocket;
+extern crate rocket_contrib;
 
 use rocket::response::Redirect;
+use rocket_contrib::serve::StaticFiles;
 mod utils;
 
-#[get("/")]
-fn index() -> &'static str {
-    "Hello, world!"
-}
 
 #[get("/search?<cmd>")]
 fn search(cmd: String) -> Redirect {
@@ -20,6 +18,11 @@ fn search(cmd: String) -> Redirect {
     return Redirect::to(redirect_url);
 }
 
+fn rocket() -> rocket::Rocket {
+    return rocket::ignite().mount("/", StaticFiles::from("static"))
+    .mount("/", routes![search]);
+}
+
 fn main() {
-    rocket::ignite().mount("/", routes![index, search]).launch();
+    rocket().launch();
 }

@@ -63,3 +63,7 @@ The following commands are supported by `Rusty-Skywalker`:
 <p align="center">
     <img src="static/images/cmd.png">
 </p>
+
+## Acknowledgement
+
+* [@jsjoeio](https://github.com/jsjoeio) for his amazing idea and tutorial. Check it out [here](https://www.youtube.com/playlist?list=PLzIwronG0sE56c6hDYOKW3-rPxmIyttoe)!

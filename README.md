@@ -48,6 +48,16 @@ $ cargo run
 http://localhost:8000
 ```
 
+## Usage
+
+To test out a command, type in http://localhost:8000/search?cmd= followed by the command.
+
+The following commands are supported by `Rusty-Skywalker`:
+- "tw" -> redirects to twitter.com
+- "tw @username" -> redirects to twitter.com/username
+
+> Everything else redirects to a google search with your query.
+
 ## Queries and Commands
 
 <p align="center">

@@ -11,6 +11,12 @@
 </p>
 <hr noshade>
 
+## Demo
+
+<p align="center">
+    <img src="static/images/twdemo.gif">
+</p>
+
 ## Prerequisites
 
 * Make sure you have Rust installed. 
